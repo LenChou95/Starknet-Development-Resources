@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starknet Development Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #bbb 1px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .starknet-resources {
+            padding: 15px;
+            background: #ffffff;
+            border: #e1e1e1 1px solid;
+        }
+        .starknet-resources h2 {
+            padding-bottom: 10px;
+        }
+        .starknet-resources ul {
+            list-style: none;
+            padding: 0;
+        }
+        .starknet-resources ul li {
+            margin-bottom: 10px;
+        }
+        .starknet-resources a {
+            text-decoration: none;
+            color: #333;
+        }
+        .starknet-resources a:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Starknet Development Resources</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="current"><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="starknet-resources">
+            <h2>SDK 和库</h2>
+            <ul>
+                <li><a href="https://book.starknet.io/zh-cn/ch02-07-starknet-js.html">Starknet.js</a></li>
+                <li><a href="https://github.com/software-mansion/starknet.py">Starknet.py</a></li>
+                <li><a href="https://github.com/xJonathanLEI/starknet-rs">Starknet.rs</a></li>
+                <li><a href="https://github.com/NethermindEth/starknet.go">Starknet.go</a></li>
+                <li><a href="https://github.com/software-mansion/starknet-jvm">Starknet JVM</a></li>
+            </ul>
+
+            <h2>开发框架</h2>
+            <ul>
+                <li><a href="https://github.com/OpenZeppelin/nile">Nile</a></li>
+                <li><a href="https://github.com/software-mansion/protostar">Protostar</a></li>
+                <li><a href="https://github.com/foundry-rs/starknet-foundry">Foundry</a></li>
+                <li><a href="https://github.com/0xSpaceShard/starknet-hardhat-plugin">Hardhat-starknet</a></li>
+            </ul>
+            
+            
+            <h2>编辑器插件</h2>
+            <ul>
+                <li><a href="https://github.com/starkware-libs/cairo/blob/main/vscode-cairo/README.md">Cairo VS Code</a></li>
+                <li><a href="https://github.com/ericglau/vim-cairo">Cairo.vim</a></li>
+                <li><a href="https://trapdoor-tech.github.io/zkstark-book/chapter_2.html">Cairo 语言支持</a></li>
+            </ul>
+
+            <h2>模板和示例</h2>
+            <ul>
+                <li><a href="https://github.com/0xSpaceShard/starknet-hardhat-plugin">Starknet Hardhat</a></li>
+                <li><a href="https://book.starknet.io/zh-cn/ch02-08-01-examples.html">Starknet React 示例</a></li>
+                <li><a href="https://github.com/foundry-rs/starknet-foundry">Starknet forge 模板</a></li>
+                <li><a href="https://github.com/dontpanicdao/vue-stark-boil">Vue-Stark-Boil</a></li>
+            </ul>
+
+            <h2>构建工具</h2>
+            <ul>
+                <li><a href="https://github.com/software-mansion/scarb">Scarb</a></li>
+                <li><a href="https://github.com/starknet-io/get-starknet">get-starknet</a></li>
+                <li><a href="https://github.com/0xSpaceShard/starknet-devnet">Starknet devnet</a></li>
+                <li><a href="https://www.starknet.io/en/posts/events-and-webinars/starknet-in-rust">Rust devent</a></li>
+                <li><a href="https://github.com/dojoengine/katana">Katana</a></li>
+            </ul>
+
+            <h2>React 集成</h2>
+            <ul>
+                <li><a href="https://github.com/puxiao/react-hook-tutorial/blob/master/%E9%99%8402%EF%BC%9AReact%E6%89%A9%E5%B1%95%E9%98%85%E8%AF%BB.md">React 钩子集合</a></li>
+                <li><a href="https://github.com/ericglau/vim-cairo">Cairo Kernel</a></li>
+                <li><a href="https://github.com/fr4nklopx/react-warp">Warp</a></li>
+                <li><a href="https://github.com/myBraavos/starknet-deeplink">starknet-deeplink</a></li>
+                <li><a href="https://github.com/0xSpaceShard/cairo-cli-docker">Cairo docker</a></li>
+            </ul>
+
+            <h2>测试和部署</h2>
+            <ul>
+                <li><a href="https://faucet.goerli.starknet.io/">Starknet Goerli ETH 水龙头</a></li>
+                <li><a href="https://www.pragmaoracle.com/">Empiric network</a></li>
+                <li><a href="https://github.com/dethcrypto/TypeChain">TypeChain</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
